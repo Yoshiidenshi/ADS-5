@@ -2,14 +2,13 @@
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
 #include <cassert>
-
 template<typename T>
 class TPQueue {
-   struct ITEM {
+  struct ITEM {
     T data;
     ITEM *next;
   };
-
+   
  private:
   ITEM *head;
   ITEM *tail;
