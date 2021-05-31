@@ -8,8 +8,8 @@ class TPQueue {
     T data;
     ITEM *next;
   };
-   
- private:
+
+private:
   ITEM *head;
   ITEM *tail;
   ITEM *create(T data) {
